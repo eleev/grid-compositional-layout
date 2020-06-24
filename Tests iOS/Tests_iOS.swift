@@ -1,8 +1,9 @@
 //
 //  Tests_iOS.swift
-//  Tests iOS
+//  Shared
 //
 //  Created by Astemir Eleev on 24.06.2020.
+//  Copyright © 2020 Astemir Eleev, Inc. All rights reserved.
 //
 
 import XCTest

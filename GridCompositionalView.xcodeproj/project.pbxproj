@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A97DAF7724A36F4C00918952 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF7624A36F4C00918952 /* Tests_iOS.swift */; };
 		A97DAF8224A36F4C00918952 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF8124A36F4C00918952 /* Tests_macOS.swift */; };
-		A97DAF8424A36F4C00918952 /* GridCompositionalViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF5B24A36F4B00918952 /* GridCompositionalViewApp.swift */; };
-		A97DAF8524A36F4C00918952 /* GridCompositionalViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF5B24A36F4B00918952 /* GridCompositionalViewApp.swift */; };
-		A97DAF8624A36F4C00918952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF5C24A36F4B00918952 /* ContentView.swift */; };
-		A97DAF8724A36F4C00918952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF5C24A36F4B00918952 /* ContentView.swift */; };
+		A97DAF8424A36F4C00918952 /* EntryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF5B24A36F4B00918952 /* EntryApp.swift */; };
+		A97DAF8524A36F4C00918952 /* EntryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF5B24A36F4B00918952 /* EntryApp.swift */; };
 		A97DAF8824A36F4C00918952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97DAF5D24A36F4B00918952 /* Assets.xcassets */; };
 		A97DAF8924A36F4C00918952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97DAF5D24A36F4B00918952 /* Assets.xcassets */; };
+		A97DAF9E24A370C900918952 /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF9D24A370C900918952 /* Comics.swift */; };
+		A97DAFA024A370DF00918952 /* ComicsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF9F24A370DF00918952 /* ComicsLoader.swift */; };
+		A97DAFA224A370F200918952 /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAFA124A370F200918952 /* ComicsManager.swift */; };
+		A97DAFA424A3713800918952 /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97DAFA324A3713800918952 /* ComicsData.plist */; };
+		A97DAFA524A3713800918952 /* ComicsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97DAFA324A3713800918952 /* ComicsData.plist */; };
+		A97DAFA724A3714400918952 /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97DAFA624A3714400918952 /* Comics.xcassets */; };
+		A97DAFA824A3714400918952 /* Comics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97DAFA624A3714400918952 /* Comics.xcassets */; };
+		A97DAFA924A371A900918952 /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF9D24A370C900918952 /* Comics.swift */; };
+		A97DAFAA24A371A900918952 /* ComicsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF9F24A370DF00918952 /* ComicsLoader.swift */; };
+		A97DAFAB24A371A900918952 /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAFA124A370F200918952 /* ComicsManager.swift */; };
+		A97DAFAC24A371EF00918952 /* GridCompositionalView.app in Resources */ = {isa = PBXBuildFile; fileRef = A97DAF6224A36F4B00918952 /* GridCompositionalView.app */; };
+		A97DAFB424A372FC00918952 /* GridCompositionalLayout in Frameworks */ = {isa = PBXBuildFile; productRef = A97DAFB324A372FC00918952 /* GridCompositionalLayout */; };
+		A97DAFB624A3730300918952 /* GridCompositionalLayout in Frameworks */ = {isa = PBXBuildFile; productRef = A97DAFB524A3730300918952 /* GridCompositionalLayout */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,11 +43,17 @@
 			remoteGlobalIDString = A97DAF6924A36F4B00918952;
 			remoteInfo = macOS;
 		};
+		A97DAFAD24A371EF00918952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97DAF5624A36F4B00918952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97DAF6124A36F4B00918952;
+			remoteInfo = iOS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A97DAF5B24A36F4B00918952 /* GridCompositionalViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCompositionalViewApp.swift; sourceTree = "<group>"; };
-		A97DAF5C24A36F4B00918952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A97DAF5B24A36F4B00918952 /* EntryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryApp.swift; sourceTree = "<group>"; };
 		A97DAF5D24A36F4B00918952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97DAF6224A36F4B00918952 /* GridCompositionalView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridCompositionalView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97DAF6524A36F4B00918952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +66,12 @@
 		A97DAF7D24A36F4C00918952 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97DAF8124A36F4C00918952 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A97DAF8324A36F4C00918952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97DAF9D24A370C900918952 /* Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		A97DAF9F24A370DF00918952 /* ComicsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsLoader.swift; sourceTree = "<group>"; };
+		A97DAFA124A370F200918952 /* ComicsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsManager.swift; sourceTree = "<group>"; };
+		A97DAFA324A3713800918952 /* ComicsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ComicsData.plist; sourceTree = "<group>"; };
+		A97DAFA624A3714400918952 /* Comics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Comics.xcassets; sourceTree = "<group>"; };
+		A97DAFB224A372DA00918952 /* GridCompositionalLayout */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GridCompositionalLayout; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97DAFB624A3730300918952 /* GridCompositionalLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97DAFB424A372FC00918952 /* GridCompositionalLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,21 +111,25 @@
 		A97DAF5524A36F4B00918952 = {
 			isa = PBXGroup;
 			children = (
+				A97DAFB224A372DA00918952 /* GridCompositionalLayout */,
 				A97DAF5A24A36F4B00918952 /* Shared */,
 				A97DAF6424A36F4B00918952 /* iOS */,
 				A97DAF6B24A36F4B00918952 /* macOS */,
 				A97DAF7524A36F4C00918952 /* Tests iOS */,
 				A97DAF8024A36F4C00918952 /* Tests macOS */,
 				A97DAF6324A36F4B00918952 /* Products */,
+				A97DAF9924A3709C00918952 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A97DAF5A24A36F4B00918952 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				A97DAF5B24A36F4B00918952 /* GridCompositionalViewApp.swift */,
-				A97DAF5C24A36F4B00918952 /* ContentView.swift */,
+				A97DAF9C24A370C100918952 /* Data Model */,
+				A97DAF5B24A36F4B00918952 /* EntryApp.swift */,
 				A97DAF5D24A36F4B00918952 /* Assets.xcassets */,
+				A97DAFA624A3714400918952 /* Comics.xcassets */,
+				A97DAFA324A3713800918952 /* ComicsData.plist */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -151,6 +180,23 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		A97DAF9924A3709C00918952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A97DAF9C24A370C100918952 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				A97DAF9D24A370C900918952 /* Comics.swift */,
+				A97DAF9F24A370DF00918952 /* ComicsLoader.swift */,
+				A97DAFA124A370F200918952 /* ComicsManager.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +213,9 @@
 			dependencies = (
 			);
 			name = iOS;
+			packageProductDependencies = (
+				A97DAFB524A3730300918952 /* GridCompositionalLayout */,
+			);
 			productName = iOS;
 			productReference = A97DAF6224A36F4B00918952 /* GridCompositionalView.app */;
 			productType = "com.apple.product-type.application";
@@ -182,8 +231,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				A97DAFAE24A371EF00918952 /* PBXTargetDependency */,
 			);
 			name = macOS;
+			packageProductDependencies = (
+				A97DAFB324A372FC00918952 /* GridCompositionalLayout */,
+			);
 			productName = macOS;
 			productReference = A97DAF6A24A36F4B00918952 /* GridCompositionalView.app */;
 			productType = "com.apple.product-type.application";
@@ -275,6 +328,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97DAFA424A3713800918952 /* ComicsData.plist in Resources */,
+				A97DAFA724A3714400918952 /* Comics.xcassets in Resources */,
 				A97DAF8824A36F4C00918952 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +338,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97DAFA524A3713800918952 /* ComicsData.plist in Resources */,
+				A97DAFA824A3714400918952 /* Comics.xcassets in Resources */,
+				A97DAFAC24A371EF00918952 /* GridCompositionalView.app in Resources */,
 				A97DAF8924A36F4C00918952 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,8 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A97DAF8624A36F4C00918952 /* ContentView.swift in Sources */,
-				A97DAF8424A36F4C00918952 /* GridCompositionalViewApp.swift in Sources */,
+				A97DAF8424A36F4C00918952 /* EntryApp.swift in Sources */,
+				A97DAFA224A370F200918952 /* ComicsManager.swift in Sources */,
+				A97DAFA024A370DF00918952 /* ComicsLoader.swift in Sources */,
+				A97DAF9E24A370C900918952 /* Comics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +377,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A97DAF8724A36F4C00918952 /* ContentView.swift in Sources */,
-				A97DAF8524A36F4C00918952 /* GridCompositionalViewApp.swift in Sources */,
+				A97DAFAA24A371A900918952 /* ComicsLoader.swift in Sources */,
+				A97DAF8524A36F4C00918952 /* EntryApp.swift in Sources */,
+				A97DAFA924A371A900918952 /* Comics.swift in Sources */,
+				A97DAFAB24A371A900918952 /* ComicsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +412,11 @@
 			isa = PBXTargetDependency;
 			target = A97DAF6924A36F4B00918952 /* macOS */;
 			targetProxy = A97DAF7E24A36F4C00918952 /* PBXContainerItemProxy */;
+		};
+		A97DAFAE24A371EF00918952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97DAF6124A36F4B00918952 /* iOS */;
+			targetProxy = A97DAFAD24A371EF00918952 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -696,6 +763,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A97DAFB324A372FC00918952 /* GridCompositionalLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GridCompositionalLayout;
+		};
+		A97DAFB524A3730300918952 /* GridCompositionalLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GridCompositionalLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A97DAF5624A36F4B00918952 /* Project object */;
 }
