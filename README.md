@@ -51,7 +51,7 @@ dependencies: [
 You can always use `copy-paste` the sources method 😄.
 
 # ✈️ Usage and APIs
-The `API` layer is thin and currently has a single compositional grid variant for vertical alignment. That means, under the hood the `LazyVGrid` is used to layout the supplied views. However, the future versions will support the `LazyHGrid` and their combination, which will allows to easly describe `orthogonal` compositional layouts, just as in `UIKit`. 
+The `API` layer is thin and currently has a single compositional grid variant for vertical alignment. That means, under the hood the `LazyVGrid` is used to layout the supplied views. However, the future versions will support the `LazyHGrid` and their combination, which will allow to easly describe `orthogonal` compositional layouts, just as in `UIKit` with `UICollectionViewCompositionalLayout`. 
 
 ## Code
 To create a layout you need to import the framework: 
@@ -72,16 +72,16 @@ var body: some View {
 }
 ```
 
-the `items` parameter described the total number of views to be rendered by the view and `columns` is a input argument of type `[GridItem]`. It specifies how an item should be treated by the layout system. For example, if you specify the following:
+the `items` parameter describes the total number of views to be rendered by the view and `columns` is an input argument of type `[GridItem]`. It specifies how an item should be treated by the layout system. For example, if you specify the following:
 
 ```swift
 let columns = [GridItem](repeating: GridItem(.flexible(), spacing: interItemSpacing), count: 2),
               [GridItem](repeating: GridItem(.flexible(), spacing: interItemSpacing), count: 6),
               [GridItem](repeating: GridItem(.flexible(), spacing: interItemSpacing), count: 4)              
 ```
-And then passing it as an input parameter to `GridCompositionalView` instance, you will get a grid, where the first `row` contains, evenly positioned `two` views, the second row contains evenly positioned `six` elements and the `third` row contains `four` elements. Then, if there is a `fifth` row, it will use the first grid item description e.g. evenly positioned `two` columns of items.
+And then pass it as an input parameter to `GridCompositionalView` instance, you will get a grid, where the first `row` contains, evenly positioned `two` elements, the second row contains evenly positioned `six` elements and the `third` row contains `four` elements. Then, if there is a `fifth` row, it will use the first grid item description e.g. evenly positioned `two` columns of items.
 
-By combining and experimenting with differnet grid item configurations, you can dramatically customize the layout of the supplied views.
+By combining and experimenting with differnet grid item configurations, you can customize the layout of the supplied views.
 
 # ⚠️ Warning 
 The assets used in this project were taken from the `Web`. Do not use them for commertial purposes and proprietary projects. They are used just for demostration only. 
