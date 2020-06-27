@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A94CDEE624A7615D00688A3D /* GridCompositionalLayout in Frameworks */ = {isa = PBXBuildFile; productRef = A94CDEE524A7615D00688A3D /* GridCompositionalLayout */; };
+		A94CDEE824A7616200688A3D /* GridCompositionalLayout in Frameworks */ = {isa = PBXBuildFile; productRef = A94CDEE724A7616200688A3D /* GridCompositionalLayout */; };
 		A97DAF7724A36F4C00918952 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF7624A36F4C00918952 /* Tests_iOS.swift */; };
 		A97DAF8224A36F4C00918952 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF8124A36F4C00918952 /* Tests_macOS.swift */; };
 		A97DAF8424A36F4C00918952 /* EntryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF5B24A36F4B00918952 /* EntryApp.swift */; };
@@ -24,8 +26,6 @@
 		A97DAFAA24A371A900918952 /* ComicsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAF9F24A370DF00918952 /* ComicsLoader.swift */; };
 		A97DAFAB24A371A900918952 /* ComicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DAFA124A370F200918952 /* ComicsManager.swift */; };
 		A97DAFAC24A371EF00918952 /* GridCompositionalView.app in Resources */ = {isa = PBXBuildFile; fileRef = A97DAF6224A36F4B00918952 /* GridCompositionalView.app */; };
-		A97DAFB424A372FC00918952 /* GridCompositionalLayout in Frameworks */ = {isa = PBXBuildFile; productRef = A97DAFB324A372FC00918952 /* GridCompositionalLayout */; };
-		A97DAFB624A3730300918952 /* GridCompositionalLayout in Frameworks */ = {isa = PBXBuildFile; productRef = A97DAFB524A3730300918952 /* GridCompositionalLayout */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A94CDEE424A7615300688A3D /* GridCompositionalView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GridCompositionalView; path = ..; sourceTree = "<group>"; };
 		A97DAF5B24A36F4B00918952 /* EntryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryApp.swift; sourceTree = "<group>"; };
 		A97DAF5D24A36F4B00918952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97DAF6224A36F4B00918952 /* GridCompositionalView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridCompositionalView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +72,6 @@
 		A97DAFA124A370F200918952 /* ComicsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsManager.swift; sourceTree = "<group>"; };
 		A97DAFA324A3713800918952 /* ComicsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ComicsData.plist; sourceTree = "<group>"; };
 		A97DAFA624A3714400918952 /* Comics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Comics.xcassets; sourceTree = "<group>"; };
-		A97DAFB224A372DA00918952 /* GridCompositionalLayout */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GridCompositionalLayout; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A97DAFB624A3730300918952 /* GridCompositionalLayout in Frameworks */,
+				A94CDEE624A7615D00688A3D /* GridCompositionalLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A97DAFB424A372FC00918952 /* GridCompositionalLayout in Frameworks */,
+				A94CDEE824A7616200688A3D /* GridCompositionalLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 		A97DAF5524A36F4B00918952 = {
 			isa = PBXGroup;
 			children = (
-				A97DAFB224A372DA00918952 /* GridCompositionalLayout */,
+				A94CDEE424A7615300688A3D /* GridCompositionalView */,
 				A97DAF5A24A36F4B00918952 /* Shared */,
 				A97DAF6424A36F4B00918952 /* iOS */,
 				A97DAF6B24A36F4B00918952 /* macOS */,
@@ -214,7 +214,7 @@
 			);
 			name = iOS;
 			packageProductDependencies = (
-				A97DAFB524A3730300918952 /* GridCompositionalLayout */,
+				A94CDEE524A7615D00688A3D /* GridCompositionalLayout */,
 			);
 			productName = iOS;
 			productReference = A97DAF6224A36F4B00918952 /* GridCompositionalView.app */;
@@ -235,7 +235,7 @@
 			);
 			name = macOS;
 			packageProductDependencies = (
-				A97DAFB324A372FC00918952 /* GridCompositionalLayout */,
+				A94CDEE724A7616200688A3D /* GridCompositionalLayout */,
 			);
 			productName = macOS;
 			productReference = A97DAF6A24A36F4B00918952 /* GridCompositionalView.app */;
@@ -765,11 +765,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A97DAFB324A372FC00918952 /* GridCompositionalLayout */ = {
+		A94CDEE524A7615D00688A3D /* GridCompositionalLayout */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GridCompositionalLayout;
 		};
-		A97DAFB524A3730300918952 /* GridCompositionalLayout */ = {
+		A94CDEE724A7616200688A3D /* GridCompositionalLayout */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GridCompositionalLayout;
 		};
