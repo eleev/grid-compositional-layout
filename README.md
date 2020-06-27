@@ -1,4 +1,4 @@
-# grid-compositional-view [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# grid-compositional-layout [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 [![Platform](https://img.shields.io/badge/Platforms-iOS/iPadOS/macOS-yellow.svg)]()
 [![PrimaryFramework](https://img.shields.io/badge/Framework-SwiftUI-red.svg)]()
@@ -14,7 +14,7 @@
 ### If you like the project, please give it a star ⭐ It will show the creator your appreciation and help others to discover the repo.
 
 # ✍️ About
-🧲 `Grid Compositional View` is a `SwiftUI` view that lays out the supplied views in a grid. Easily configurable and lazily retained [`Swift 5.3`, `iOS 14.0+`, `iPadOS 14.0+`, `macOS 11.0(10.16)+`].
+🧲 `Grid Compositional Layout` is a `SwiftUI` view that lays out the supplied views in a grid. Easily configurable and lazily retained [`Swift 5.3`, `iOS 14.0+`, `iPadOS 14.0+`, `macOS 11.0(10.16)+`].
 
 # 📚 Contents
 Please wait while the `.gif` files are loading (there are `9` files, that weight around `43Mb`)...
@@ -44,7 +44,7 @@ If you already have a `Package.swift` or you are building your own package simpl
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/jVirus/grid-compositional-view/", from: "1.0.0")
+    .package(url: "https://github.com/jVirus/grid-compositional-layout/", from: "1.0.0")
 ]
 ```
 ## Manual
@@ -90,4 +90,4 @@ The assets used in this project were taken from the `Web`. Do not use them for c
 [Astemir Eleev](https://github.com/jVirus)
 
 # 🔖 Licence 
-The project is available under [MIT Licence](https://github.com/jVirus/grid-compositional-view/blob/master/LICENSE)
+The project is available under [MIT Licence](https://github.com/jVirus/grid-compositional-layout/blob/main/LICENSE)
