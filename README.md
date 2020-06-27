@@ -9,7 +9,7 @@
 
 **Last Update: 27/June/2020.**
 
-![](logo.png)
+![](logo.jpg)
 
 ### If you like the project, please give it a star ⭐ It will show the creator your appreciation and help others to discover the repo.
 
@@ -17,13 +17,13 @@
 🧲 `Grid Compositional View` is a `SwiftUI` view that lays out the supplied views in a grid. Easily configurable and lazily retained [`Swift 5.3`, `iOS 14.0+`, `iPadOS 14.0+`, `macOS 11.0(10.16)+`].
 
 # 📚 Contents
-Please wait while the `.gif` files are loading (there are 9 files, that weight around 100Mb)...
+Please wait while the `.gif` files are loading (there are `9` files, that weight around `43Mb`)...
 
 |  |  |  |
 :-------------------------:|:-------------------------:|:-------------------------:
-![](assets/01.gif) | ![](assets/02.gif) | ![](assets/03.gif)
-![](assets/04.gif) | ![](assets/05.gif) | ![](assets/06.gif)
-![](assets/07.gif) | ![](assets/08.gif) | ![](assets/09.gif)
+![](Assets/01.gif) | ![](Assets/02.gif) | ![](Assets/03.gif)
+![](Assets/04.gif) | ![](Assets/05.gif) | ![](Assets/06.gif)
+![](Assets/07.gif) | ![](Assets/08.gif) | ![](Assets/09.gif)
 
 # 📦 Installation
 There are no dependencies as well as any package managers involved. The repo contains both: the Swift Package and a demo Xcode project. 
